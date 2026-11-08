@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameer Ahmed Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Glassmorphic Navigation -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-badge">SA</span>
+                <div class="logo-text">
+                    <span class="name">Sameer Ahmed</span>
+                    <span class="subtitle">Aspiring Data Scientist</span>
+                </div>
+            </div>
+            <nav class="nav-links" id="navLinks">
+                <a href="#about" class="active">About</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="nav-right">
+                <a href="#contact" class="btn-glow">LET'S TALK</a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero & Overview Layout matching screenshot -->
+        <section class="hero-section" id="about">
+            <div class="status-badge-wrapper">
+                <span class="pulse-dot"></span>
+                <span class="status-text">ASPIRING DATA SCIENTIST</span>
+            </div>
+            
+            <h1 class="hero-name">SAMEER AHMED</h1>
+            <h2 class="hero-tagline">Turning Data into Insights | Learning Today, Building Tomorrow</h2>
+
+            <div class="hero-grid">
+                <!-- Left Column: Career Objective -->
+                <div class="card glass-card">
+                    <span class="card-subtitle-label">CAREER OBJECTIVE</span>
+                    <p class="objective-text">
+                        To build a successful career in Data Science by applying my analytical skills, problem-solving ability and technical knowledge to solve real-world problems and contribute to innovative projects. I am eager to learn, grow and make a positive impact in a dynamic and professional environment.
+                    </p>
+                </div>
+
+                <!-- Right Column: Contact & Profiles -->
+                <div class="card glass-card contact-card">
+                    <span class="card-subtitle-label"><i class="fas fa-address-card"></i> CONTACT & PROFILES</span>
+                    <div class="contact-rows">
+                        <a href="tel:03489308855" class="contact-pill">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>03489308855</span>
+                        </a>
+                        <a href="mailto:rajasameerahmed10@gmail.com" class="contact-pill">
+                            <i class="fas fa-envelope"></i>
+                            <span>rajasameerahmed10@gmail.com</span>
+                        </a>
+                        <a href="https://github.com/sameer-ahmed777" target="_blank" class="contact-pill">
+                            <i class="fab fa-github"></i>
+                            <span>github.com/sameer-ahmed777</span>
+                        </a>
+                        <a href="https://linkedin.com/in/sameer-ahmed-82312a421" target="_blank" class="contact-pill">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/sameer-ahmed-82312a421</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section-container" id="education">
+            <div class="section-header">
+                <span class="section-label">ACADEMIC BACKGROUND</span>
+                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+            </div>
+            <div class="card glass-card">
+                <div class="card-header-flex">
+                    <div>
+                        <h3>BS Data Science</h3>
+                        <p class="accent-text">PAF-IAST, Haripur</p>
+                    </div>
+                    <span class="date-badge">2025 – 2029 (Expected)</span>
+                </div>
+                <p class="sub-detail">Currently in 3rd Semester. Coursework focusing on Data Science, Deep Learning, Statistics, Linear Algebra, and Machine Learning algorithms.</p>
+            </div>
+        </section>
+
+        <!-- Internship Experience -->
+        <section class="section-container" id="experience">
+            <div class="section-header">
+                <span class="section-label">WORK EXPERIENCE</span>
+                <h2><i class="fas fa-briefcase"></i> Internship Experience</h2>
+            </div>
+            <div class="card glass-card">
+                <div class="card-header-flex">
+                    <div>
+                        <h3>Data Science Intern</h3>
+                        <p class="accent-text">MTech Production and Marketing</p>
+                    </div>
+                    <span class="date-badge">Jun 2026 – Aug 2026 (1.5 Months)</span>
+                </div>
+                <ul class="styled-list">
+                    <li>Worked on real-world data science tasks under the guidance of industry professionals.</li>
+                    <li>Gained hands-on experience in data analysis, data preprocessing, model building, and visualization.</li>
+                    <li>Collaborated with the team and followed company instructions to complete assigned projects.</li>
+                    <li>Developed practical skills and improved problem-solving and teamwork abilities.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section class="section-container" id="projects">
+            <div class="section-header">
+                <span class="section-label">PORTFOLIO WORK</span>
+                <h2><i class="fas fa-project-diagram"></i> Featured Projects</h2>
+            </div>
+            <div class="grid-2">
+                <div class="card glass-card">
+                    <h3>Handwritten Urdu Character Recognition System</h3>
+                    <p class="project-tagline">Convolutional Neural Networks (CNN)</p>
+                    <p>Designed and trained a Convolutional Neural Network (CNN) architecture to recognize and classify handwritten Urdu characters with high precision.</p>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">CNN</span>
+                        <span class="tag">TensorFlow</span>
+                        <span class="tag">Computer Vision</span>
+                    </div>
+                </div>
+
+                <div class="card glass-card">
+                    <h3>AI Chatbot System</h3>
+                    <p class="project-tagline">Natural Language Processing (NLP)</p>
+                    <p>Built an interactive conversational AI model leveraging NLP principles to process user queries and generate intelligent response workflows.</p>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">NLP</span>
+                        <span class="tag">Artificial Intelligence</span>
+                    </div>
+                </div>
+
+                <div class="card glass-card">
+                    <h3>Customer Churn Analysis</h3>
+                    <p class="project-tagline">Predictive Analytics & EDA</p>
+                    <ul class="styled-list">
+                        <li>Analyzed customer churn data using Python (Pandas, NumPy).</li>
+                        <li>Performed data cleaning, EDA, and data visualization (Matplotlib, Seaborn).</li>
+                        <li>Identified key factors affecting customer churn.</li>
+                    </ul>
+                    <div class="tags">
+                        <span class="tag">Pandas</span>
+                        <span class="tag">NumPy</span>
+                        <span class="tag">Matplotlib</span>
+                        <span class="tag">Seaborn</span>
+                    </div>
+                </div>
+
+                <div class="card glass-card">
+                    <h3>Credit Risk Assessment</h3>
+                    <p class="project-tagline">Classification Modeling</p>
+                    <ul class="styled-list">
+                        <li>Built a machine learning model using RandomForestClassifier.</li>
+                        <li>Used train_test_split, LabelEncoder and evaluated performance with accuracy, confusion matrix, and classification report.</li>
+                        <li>Created a structured GitHub repository with README.</li>
+                    </ul>
+                    <div class="tags">
+                        <span class="tag">Scikit-Learn</span>
+                        <span class="tag">RandomForest</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </div>
+
+                <div class="card glass-card full-width">
+                    <h3>Restaurant Feature Store Engineering</h3>
+                    <p class="project-tagline">Data Engineering Pipeline</p>
+                    <ul class="styled-list">
+                        <li>Processed POS logs and created a feature store using Python.</li>
+                        <li>Calculated key features like peak hours, sales amount, item velocity, customer count, AOV, and branch seasonality.</li>
+                        <li>Generated output file: Restaurant_Feature_Store.xlsx.</li>
+                    </ul>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Feature Stores</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">Excel Pipeline</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section class="section-container" id="skills">
+            <div class="section-header">
+                <span class="section-label">TECHNICAL EXPERTISE</span>
+                <h2><i class="fas fa-tools"></i> Skills & Tools</h2>
+            </div>
+            <div class="grid-3">
+                <div class="card glass-card">
+                    <h3>Programming Languages</h3>
+                    <div class="tag-group">
+                        <span class="skill-badge"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-badge"><i class="fas fa-code"></i> C++</span>
+                    </div>
+                </div>
+                <div class="card glass-card">
+                    <h3>Data Analysis & Visualization</h3>
+                    <div class="tags">
+                        <span class="tag">Pandas</span>
+                        <span class="tag">NumPy</span>
+                        <span class="tag">Matplotlib</span>
+                        <span class="tag">Seaborn</span>
+                    </div>
+                </div>
+                <div class="card glass-card">
+                    <h3>Tools & Environments</h3>
+                    <div class="tags">
+                        <span class="tag">Jupyter Notebook</span>
+                        <span class="tag">Google Colab</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">Anaconda</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Achievements -->
+        <section class="section-container" id="certifications">
+            <div class="section-header">
+                <span class="section-label">LEARNING & CREDENTIALS</span>
+                <h2><i class="fas fa-certificate"></i> Certifications & Courses</h2>
+            </div>
+            <div class="grid-3">
+                <div class="card glass-card">
+                    <h3>Harvard University – Python Course</h3>
+                    <p class="project-tagline">edX Certification</p>
+                    <span class="status-pill status-progress">In Progress</span>
+                </div>
+                <div class="card glass-card">
+                    <h3>C++ Programming Course</h3>
+                    <p class="project-tagline">Certificate of Completion</p>
+                    <span class="status-pill status-complete">Completed</span>
+                </div>
+                <div class="card glass-card">
+                    <h3>Data Science Internship Certificate</h3>
+                    <p class="project-tagline">MTech Production and Marketing</p>
+                    <span class="status-pill status-complete">Completed</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests & Hobbies -->
+        <section class="section-container">
+            <div class="section-header">
+                <span class="section-label">PERSONAL INTERESTS</span>
+                <h2><i class="fas fa-heart"></i> Hobbies & Languages</h2>
+            </div>
+            <div class="grid-2">
+                <div class="card glass-card">
+                    <h3>Interests & Hobbies</h3>
+                    <ul class="styled-list">
+                        <li>Data Science & Machine Learning</li>
+                        <li>Reading and Learning New Technologies</li>
+                        <li>Exploring AI Projects and Open Source</li>
+                        <li>Problem Solving</li>
+                        <li>Sports and Fitness</li>
+                    </ul>
+                </div>
+                <div class="card glass-card">
+                    <h3>Languages</h3>
+                    <ul class="styled-list">
+                        <li><strong>Urdu:</strong> Native</li>
+                        <li><strong>English:</strong> Intermediate</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section-container" id="contact">
+            <div class="section-header">
+                <span class="section-label">GET IN TOUCH</span>
+                <h2><i class="fas fa-paper-plane"></i> Contact Me</h2>
+            </div>
+            <div class="grid-2">
+                <div class="card glass-card">
+                    <h3>Let's Collaborate</h3>
+                    <p>Open for Data Science internships, AI research opportunities, and technical projects.</p>
+                    <div class="contact-links-vertical">
+                        <p><i class="fas fa-map-marker-alt"></i> Haripur, KPK, Pakistan</p>
+                        <p><i class="fas fa-envelope"></i> rajasameerahmed10@gmail.com</p>
+                        <p><i class="fas fa-phone-alt"></i> 03489308855</p>
+                    </div>
+                </div>
+                <div class="card glass-card">
+                    <h3>Send Message</h3>
+                    <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="4" required></textarea>
+                        <button type="submit" class="btn-glow">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sameer Ahmed. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
